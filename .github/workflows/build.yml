@@ -2,8 +2,7 @@ name: Build clash rules
 
 on:
   schedule:
-    # 上游 KaringX/karing-ruleset 每天 UTC 14:30（= 北京时间 22:30）推送，
-    # 这里延后到 UTC 16:30 构建，确保拉到的是当天最新规则。
+    # 上游 KaringX/karing-ruleset 每天 UTC 14:30 推送，这里延后到 UTC 16:30 构建
     - cron: "30 16 * * *"
   workflow_dispatch:
   push:
@@ -24,14 +23,36 @@ jobs:
         with:
           python-version: "3.11"
 
+      # 诊断步骤：先看清仓库里到底有什么，方便排错
+      - name: 诊断 - 列出仓库文件
+        run: |
+          echo "=== 工作目录 ==="
+          pwd
+          echo "=== 顶层内容 ==="
+          ls -la
+          echo "=== tools/ 是否存在 ==="
+          if [ -d tools ]; then ls -la tools; else echo "!!! tools/ 目录不存在 !!!"; fi
+          echo "=== 全仓库文件（排除 .git 和规则文件）==="
+          find . -path ./.git -prune -o -type f -print | grep -v "^\./clash_rules/" | sort
+          echo "=== clash_rules/ 文件数 ==="
+          ls clash_rules 2>/dev/null | wc -l
+
       - name: Build clash_rules
-        run: python3 tools/build_remote.py --repo ${{ github.repository }}
+        run: |
+          # 自动定位脚本（兼容文件被上传到子目录的情况）
+          SCRIPT=$(find . -path ./.git -prune -o -name build_remote.py -print | head -1)
+          if [ -z "$SCRIPT" ]; then
+            echo "!!! 找不到 build_remote.py，请确认 tools/ 目录已上传 !!!"
+            exit 1
+          fi
+          echo "使用脚本: $SCRIPT"
+          python3 "$SCRIPT" --repo "${{ github.repository }}" --branch main
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add clash_rules clash-verge-config.yaml clash-meta-android.yaml
+          git add clash_rules clash-verge-config.yaml clash-meta-android.yaml 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "规则无变化，跳过提交"
           else
