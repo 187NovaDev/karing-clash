@@ -2,7 +2,7 @@
 # 适用: Clash Verge / Clash Meta (mihomo) 桌面版 —— Windows / macOS / Linux
 # 用法: 配置 → 右键当前配置 → 编辑 → 把本文件两段整段粘贴进去
 # 规则来源: recommend/cn.json 的 21 个规则组，由 tools/build_remote.py 从 .srs 解出
-# 远程地址: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/<slug>-domain.yaml
+# 远程地址: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/<slug>-domain.yaml
 # 更新间隔: 86400 秒（每天自动拉一次）
 #
 # ⚠️ 本文件只有 rule-providers + rules，不含节点。整段贴进你自己的配置即可。
@@ -15,193 +15,193 @@ rule-providers:
   🛑 广告拦截-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/adblock-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/adblock-domain.yaml
     path: ./ruleset/adblock-domain.yaml
     interval: 86400
   🍃 应用净化-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/app-clean-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/app-clean-domain.yaml
     path: ./ruleset/app-clean-domain.yaml
     interval: 86400
   🍃 应用净化-ip:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/app-clean-ip.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/app-clean-ip.yaml
     path: ./ruleset/app-clean-ip.yaml
     interval: 86400
   Ⓜ️ 微软Bing-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/bing-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/bing-domain.yaml
     path: ./ruleset/bing-domain.yaml
     interval: 86400
   Ⓜ️ 微软云盘-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/onedrive-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/onedrive-domain.yaml
     path: ./ruleset/onedrive-domain.yaml
     interval: 86400
   Ⓜ️ 微软服务-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/microsoft-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/microsoft-domain.yaml
     path: ./ruleset/microsoft-domain.yaml
     interval: 86400
   🍎 苹果服务-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/apple-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/apple-domain.yaml
     path: ./ruleset/apple-domain.yaml
     interval: 86400
   🌏 Google-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/google-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/google-domain.yaml
     path: ./ruleset/google-domain.yaml
     interval: 86400
   🌏 Google-ip:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/google-ip.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/google-ip.yaml
     path: ./ruleset/google-ip.yaml
     interval: 86400
   📢 谷歌FCM-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/gcm-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/gcm-domain.yaml
     path: ./ruleset/gcm-domain.yaml
     interval: 86400
   📢 谷歌FCM-ip:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/gcm-ip.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/gcm-ip.yaml
     path: ./ruleset/gcm-ip.yaml
     interval: 86400
   📲 电报消息-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/telegram-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/telegram-domain.yaml
     path: ./ruleset/telegram-domain.yaml
     interval: 86400
   📲 电报消息-ip:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/telegram-ip.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/telegram-ip.yaml
     path: ./ruleset/telegram-ip.yaml
     interval: 86400
   💬 OpenAI-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/openai-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/openai-domain.yaml
     path: ./ruleset/openai-domain.yaml
     interval: 86400
   💬 OpenAI-ip:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/openai-ip.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/openai-ip.yaml
     path: ./ruleset/openai-ip.yaml
     interval: 86400
   ♊ Gemini-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/gemini-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/gemini-domain.yaml
     path: ./ruleset/gemini-domain.yaml
     interval: 86400
   🐱 GitHub-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/github-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/github-domain.yaml
     path: ./ruleset/github-domain.yaml
     interval: 86400
   🐱 GitHub-ip:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/github-ip.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/github-ip.yaml
     path: ./ruleset/github-ip.yaml
     interval: 86400
   🎮 游戏平台-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/gaming-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/gaming-domain.yaml
     path: ./ruleset/gaming-domain.yaml
     interval: 86400
   🎧 TikTok-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/tiktok-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/tiktok-domain.yaml
     path: ./ruleset/tiktok-domain.yaml
     interval: 86400
   📸 Instagram-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/instagram-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/instagram-domain.yaml
     path: ./ruleset/instagram-domain.yaml
     interval: 86400
   📹 油管视频-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/youtube-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/youtube-domain.yaml
     path: ./ruleset/youtube-domain.yaml
     interval: 86400
   🎥 奈飞视频-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/netflix-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/netflix-domain.yaml
     path: ./ruleset/netflix-domain.yaml
     interval: 86400
   🎥 奈飞视频-ip:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/netflix-ip.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/netflix-ip.yaml
     path: ./ruleset/netflix-ip.yaml
     interval: 86400
   📺 哔哩哔哩-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/bilibili-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/bilibili-domain.yaml
     path: ./ruleset/bilibili-domain.yaml
     interval: 86400
   📺 哔哩哔哩-ip:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/bilibili-ip.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/bilibili-ip.yaml
     path: ./ruleset/bilibili-ip.yaml
     interval: 86400
   🎶 网易音乐-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/netease-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/netease-domain.yaml
     path: ./ruleset/netease-domain.yaml
     interval: 86400
   🎶 网易音乐-ip:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/netease-ip.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/netease-ip.yaml
     path: ./ruleset/netease-ip.yaml
     interval: 86400
   🎯 国内直连-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/cn-direct-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/cn-direct-domain.yaml
     path: ./ruleset/cn-direct-domain.yaml
     interval: 86400
   🎯 国内直连-ip:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/cn-direct-ip.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/cn-direct-ip.yaml
     path: ./ruleset/cn-direct-ip.yaml
     interval: 86400
   🌏 国外穿墙-domain:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/gfw-domain.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/gfw-domain.yaml
     path: ./ruleset/gfw-domain.yaml
     interval: 86400
   🌏 国外穿墙-ip:
     type: http
     behavior: classical
-    url: https://fastly.jsdelivr.net/gh/YOURNAME/karing-clash@main/clash_rules/gfw-ip.yaml
+    url: https://fastly.jsdelivr.net/gh/187NovaDev/karing-clash@main/clash_rules/gfw-ip.yaml
     path: ./ruleset/gfw-ip.yaml
     interval: 86400
 
