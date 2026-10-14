@@ -1,0 +1,40 @@
+name: Build clash rules
+
+on:
+  schedule:
+    # 上游 KaringX/karing-ruleset 每天 UTC 14:30（= 北京时间 22:30）推送，
+    # 这里延后到 UTC 16:30 构建，确保拉到的是当天最新规则。
+    - cron: "30 16 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "tools/**"
+      - ".github/workflows/build.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build clash_rules
+        run: python3 tools/build_remote.py --repo ${{ github.repository }}
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add clash_rules clash-verge-config.yaml clash-meta-android.yaml
+          if git diff --staged --quiet; then
+            echo "规则无变化，跳过提交"
+          else
+            git commit -m "chore: 更新规则 $(date -u +%Y-%m-%d)"
+            git push
+          fi
