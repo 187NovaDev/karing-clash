@@ -228,6 +228,7 @@ payload:
   - DOMAIN,doy2mn9upadnk.cloudfront.net
   - DOMAIN,dqd0jw5gvbchn.cloudfront.net
   - DOMAIN,dqrpb9wgowsf5.cloudfront.net
+  - DOMAIN,dropbox.zendesk.com
   - DOMAIN,ds-linear-abematv.akamaized.net
   - DOMAIN,ds-vod-abematv.akamaized.net
   - DOMAIN,ds0h3roq6wcgc.cloudfront.net
@@ -1669,6 +1670,7 @@ payload:
   - DOMAIN-SUFFIX,addthiscdn.com
   - DOMAIN-SUFFIX,addthisedge.com
   - DOMAIN-SUFFIX,addtoany.com
+  - DOMAIN-SUFFIX,addtodropbox.com
   - DOMAIN-SUFFIX,addyoutube.com
   - DOMAIN-SUFFIX,adelaidenow.com.au
   - DOMAIN-SUFFIX,adgoogle.net
@@ -7283,6 +7285,7 @@ payload:
   - DOMAIN-SUFFIX,darwinsource.org
   - DOMAIN-SUFFIX,darwinsourcecode.com
   - DOMAIN-SUFFIX,dasaob.online
+  - DOMAIN-SUFFIX,dash.ai
   - DOMAIN-SUFFIX,dashlane.com
   - DOMAIN-SUFFIX,dashly.app
   - DOMAIN-SUFFIX,dashly.help
@@ -8052,6 +8055,7 @@ payload:
   - DOMAIN-SUFFIX,docs.new
   - DOMAIN-SUFFIX,docs.rs
   - DOMAIN-SUFFIX,docs.rw
+  - DOMAIN-SUFFIX,docsend.com
   - DOMAIN-SUFFIX,doctor-videos.com
   - DOMAIN-SUFFIX,documentforce.com
   - DOMAIN-SUFFIX,documentingreality.com
@@ -8248,12 +8252,15 @@ payload:
   - DOMAIN-SUFFIX,dropboxapi.com
   - DOMAIN-SUFFIX,dropboxbusiness.com
   - DOMAIN-SUFFIX,dropboxcaptcha.com
+  - DOMAIN-SUFFIX,dropboxexperiment.com
   - DOMAIN-SUFFIX,dropboxforum.com
   - DOMAIN-SUFFIX,dropboxforums.com
   - DOMAIN-SUFFIX,dropboxinsiders.com
+  - DOMAIN-SUFFIX,dropboxlegal.com
   - DOMAIN-SUFFIX,dropboxmail.com
   - DOMAIN-SUFFIX,dropboxpartners.com
   - DOMAIN-SUFFIX,dropboxstatic.com
+  - DOMAIN-SUFFIX,dropboxteam.com
   - DOMAIN-SUFFIX,dropboxusercontent.com
   - DOMAIN-SUFFIX,drpc.org
   - DOMAIN-SUFFIX,drtuber.com
@@ -12007,9 +12014,11 @@ payload:
   - DOMAIN-SUFFIX,helixstudios.net
   - DOMAIN-SUFFIX,helloandroid.com
   - DOMAIN-SUFFIX,helloavgirls.com
+  - DOMAIN-SUFFIX,hellofax.com
   - DOMAIN-SUFFIX,hellokittybeats.com
   - DOMAIN-SUFFIX,hellomoto.com
   - DOMAIN-SUFFIX,helloqueer.com
+  - DOMAIN-SUFFIX,hellosign.com
   - DOMAIN-SUFFIX,hellosmartbook.com
   - DOMAIN-SUFFIX,hellporno.com
   - DOMAIN-SUFFIX,hellven.net
@@ -16948,6 +16957,7 @@ payload:
   - DOMAIN-SUFFIX,movidius.net
   - DOMAIN-SUFFIX,movidius.org
   - DOMAIN-SUFFIX,movie-erog.com
+  - DOMAIN-SUFFIX,movie.eroterest.net
   - DOMAIN-SUFFIX,movie1000.xyz
   - DOMAIN-SUFFIX,moviefap.com
   - DOMAIN-SUFFIX,moviepost.com
