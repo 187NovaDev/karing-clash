@@ -60,6 +60,9 @@ payload:
   - DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net
   - DOMAIN,appleworldwidedeveloper.sc.omtrdc.net
   - DOMAIN,apps5.oingo.com
+  - DOMAIN,appsgenaiserver-pa.clients.google.com
+  - DOMAIN,appsgenaiserver-pa.clients6.google.com
+  - DOMAIN,appsgenaiserver-pa.googleapis.com
   - DOMAIN,as-dash-uk-live.akamaized.net
   - DOMAIN,as-hls-uk-live.akamaized.net
   - DOMAIN,asahishimbun.sc.omtrdc.net
@@ -200,6 +203,8 @@ payload:
   - DOMAIN,databank.worldbank.org
   - DOMAIN,database.asahi.com
   - DOMAIN,datarouter.apps.netherrealm.com
+  - DOMAIN,dc.applicationinsights.azure.com
+  - DOMAIN,dc.services.visualstudio.com
   - DOMAIN,dcb0z5ovq92mz.cloudfront.net
   - DOMAIN,ddacn6pr5v0tl.cloudfront.net
   - DOMAIN,ddpjwstwtpszg.cloudfront.net
@@ -368,6 +373,7 @@ payload:
   - DOMAIN,linkedin.sc.omtrdc.net
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
   - DOMAIN,live-patreon-marketing.pantheonsite.io
+  - DOMAIN,live.applicationinsights.azure.com
   - DOMAIN,lm.licenses.adobe.com
   - DOMAIN,lmlicenses.wip4.adobe.com
   - DOMAIN,location.microsoft.com
@@ -539,6 +545,7 @@ payload:
   - DOMAIN,rsshub.umzzz.com
   - DOMAIN,rsshub.woodland.cafe
   - DOMAIN,rsshub2.asailor.org
+  - DOMAIN,rt.services.visualstudio.com
   - DOMAIN,rtm.tnt-ea.com
   - DOMAIN,s3-ap-southeast-1.amazonaws.com
   - DOMAIN,sa78gs.wpc.edgecastcdn.net
@@ -627,7 +634,6 @@ payload:
   - DOMAIN,service.urchin.com
   - DOMAIN,sni1dcb6gl.wpc.edgecastcdn.net
   - DOMAIN,spectator.ppy.sh
-  - DOMAIN,spotify.com.edgesuite.net
   - DOMAIN,spotify.map.fastly.net
   - DOMAIN,spotify.map.fastlylb.net
   - DOMAIN,ssl-google-analytics.l.google.com
@@ -15139,6 +15145,7 @@ payload:
   - DOMAIN-SUFFIX,librarylovefest.com
   - DOMAIN-SUFFIX,libraryofthumbs.com
   - DOMAIN-SUFFIX,libredd.it
+  - DOMAIN-SUFFIX,librewolf.dev
   - DOMAIN-SUFFIX,librewolf.net
   - DOMAIN-SUFFIX,libsolutions.app
   - DOMAIN-SUFFIX,libsolutions.domains
@@ -21951,7 +21958,6 @@ payload:
   - DOMAIN-SUFFIX,situero.com
   - DOMAIN-SUFFIX,six-degrees.io
   - DOMAIN-SUFFIX,six9dy.pw
-  - DOMAIN-SUFFIX,sixte.st
   - DOMAIN-SUFFIX,sjcollect.com
   - DOMAIN-SUFFIX,sjhsp1.buzz
   - DOMAIN-SUFFIX,skate2.com
@@ -23252,29 +23258,6 @@ payload:
   - DOMAIN-SUFFIX,teslaenergy.services
   - DOMAIN-SUFFIX,teslamotors.com
   - DOMAIN-SUFFIX,teslazta.net
-  - DOMAIN-SUFFIX,test-ipv6.alpinedc.ch
-  - DOMAIN-SUFFIX,test-ipv6.arauc.br
-  - DOMAIN-SUFFIX,test-ipv6.belwue.net
-  - DOMAIN-SUFFIX,test-ipv6.carnet.hr
-  - DOMAIN-SUFFIX,test-ipv6.cl
-  - DOMAIN-SUFFIX,test-ipv6.com
-  - DOMAIN-SUFFIX,test-ipv6.cs.umd.edu
-  - DOMAIN-SUFFIX,test-ipv6.csclub.uwaterloo.ca
-  - DOMAIN-SUFFIX,test-ipv6.cz
-  - DOMAIN-SUFFIX,test-ipv6.epic.network
-  - DOMAIN-SUFFIX,test-ipv6.fratec.net
-  - DOMAIN-SUFFIX,test-ipv6.freerangecloud.com
-  - DOMAIN-SUFFIX,test-ipv6.go6.si
-  - DOMAIN-SUFFIX,test-ipv6.hu
-  - DOMAIN-SUFFIX,test-ipv6.is
-  - DOMAIN-SUFFIX,test-ipv6.iu13.net
-  - DOMAIN-SUFFIX,test-ipv6.ke.liquidtelecom.net
-  - DOMAIN-SUFFIX,test-ipv6.noroutetohost.net
-  - DOMAIN-SUFFIX,test-ipv6.roedu.net
-  - DOMAIN-SUFFIX,test-ipv6.se
-  - DOMAIN-SUFFIX,test-ipv6.sin.vr.org
-  - DOMAIN-SUFFIX,test-ipv6.ttk.ru
-  - DOMAIN-SUFFIX,testipv6.de
   - DOMAIN-SUFFIX,testonfox.com
   - DOMAIN-SUFFIX,tetrika-school.ru
   - DOMAIN-SUFFIX,tettediferro.it
