@@ -343,6 +343,7 @@ payload:
   - DOMAIN,homebrew.bintray.com
   - DOMAIN,hpefonts.s3.amazonaws.com
   - DOMAIN,hpstore.corpmerchandise.com
+  - DOMAIN,http-intake.logs.us5.datadoghq.com
   - DOMAIN,hub.slarker.me
   - DOMAIN,hulu.playback.edge.bamgrid.com
   - DOMAIN,i.jeded.com
@@ -440,6 +441,7 @@ payload:
   - DOMAIN,nvidia.custhelp.com
   - DOMAIN,nvidia.tt.omtrdc.net
   - DOMAIN,o.pki.goog
+  - DOMAIN,o1158394.ingest.us.sentry.io
   - DOMAIN,ocsp.microsoft.com
   - DOMAIN,ocsp.pki.goog
   - DOMAIN,officecdn-microsoft-com.akamaized.net
@@ -475,6 +477,7 @@ payload:
   - DOMAIN,prod-databe.floonet.goog
   - DOMAIN,prod.databe.floonet.goog
   - DOMAIN,prodforza.blob.core.windows.net
+  - DOMAIN,production-copilot-host-westus.webpubsub.azure.com
   - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN,productionresultssa0.blob.core.windows.net
   - DOMAIN,productionresultssa1.blob.core.windows.net
@@ -11688,6 +11691,7 @@ payload:
   - DOMAIN-SUFFIX,gridaware.app
   - DOMAIN-SUFFIX,grindr.com
   - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,grokbot.com
   - DOMAIN-SUFFIX,grokipedia.com
   - DOMAIN-SUFFIX,grooby.com
   - DOMAIN-SUFFIX,groq.com
