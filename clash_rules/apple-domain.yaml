@@ -66,6 +66,7 @@ payload:
   - DOMAIN,communities.apple.com
   - DOMAIN,configuration.apple.com
   - DOMAIN,configuration.apple.com.akadns.net
+  - DOMAIN,configuration.ls.apple.com
   - DOMAIN,crl-lb.apple.com.akadns.net
   - DOMAIN,crl.apple.com
   - DOMAIN,cstat.apple.com
@@ -150,9 +151,11 @@ payload:
   - DOMAIN,misc-assets.itunes.apple.com
   - DOMAIN,ml.cdn-apple.com
   - DOMAIN,music.apple.com
+  - DOMAIN,musicstatus.itunes.apple.com
   - DOMAIN,musicstatus.music.apple.com
   - DOMAIN,mvod.itunes.apple.com
   - DOMAIN,myapp.itunes.apple.com
+  - DOMAIN,mzstorekit.itunes.apple.com
   - DOMAIN,np-edge.itunes.apple.com
   - DOMAIN,ocsp.apple.com
   - DOMAIN,ocsp2.apple.com
@@ -273,6 +276,7 @@ payload:
   - DOMAIN-SUFFIX,beatsbydre.com
   - DOMAIN-SUFFIX,beatsbydre.com.cn
   - DOMAIN-SUFFIX,beatsep.cn
+  - DOMAIN-SUFFIX,captive.apple.com
   - DOMAIN-SUFFIX,ecgapp.com.cn
   - DOMAIN-SUFFIX,faceshift.cn
   - DOMAIN-SUFFIX,homepod.cn
