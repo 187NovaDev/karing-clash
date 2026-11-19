@@ -7915,6 +7915,7 @@ payload:
   - DOMAIN-SUFFIX,telemetry.pod8.prod.avatar.ext.hp.com
   - DOMAIN-SUFFIX,telemetry.pod9.prod.avatar.ext.hp.com
   - DOMAIN-SUFFIX,temp.163.com
+  - DOMAIN-SUFFIX,tencentads.com
   - DOMAIN-SUFFIX,tencentapigw.com
   - DOMAIN-SUFFIX,tepusi888.cn
   - DOMAIN-SUFFIX,testads.api.my7v.com
