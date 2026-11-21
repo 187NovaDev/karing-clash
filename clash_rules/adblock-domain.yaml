@@ -6310,6 +6310,9 @@ payload:
   - DOMAIN-SUFFIX,openmonitor.alipay.com
   - DOMAIN-SUFFIX,openrcv.baidu.com
   - DOMAIN-SUFFIX,opensdk.wlanbanlv.com
+  - DOMAIN-SUFFIX,openx.net
+  - DOMAIN-SUFFIX,openxenterprise.com
+  - DOMAIN-SUFFIX,openxmarket.asia
   - DOMAIN-SUFFIX,opev2lhm7h.com
   - DOMAIN-SUFFIX,opex-service-sg.allawnos.com
   - DOMAIN-SUFFIX,opg4g472vl.com
@@ -9455,7 +9458,6 @@ payload:
   - DOMAIN-KEYWORD,guanggao
   - DOMAIN-KEYWORD,omgmta
   - DOMAIN-KEYWORD,omniture
-  - DOMAIN-KEYWORD,openx
   - DOMAIN-KEYWORD,partnerad
   - DOMAIN-KEYWORD,pingfore
   - DOMAIN-KEYWORD,socdm
